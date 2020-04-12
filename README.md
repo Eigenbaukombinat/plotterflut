@@ -21,6 +21,12 @@ bin/pip install -r requirements.txt
 
 ## Running
 
+Create an empty new drawing:
+
+```bash
+touch drawing
+```
+
 Connect your Axidraw v3 and run:
 
 ```bash
@@ -29,6 +35,7 @@ FLASK_APP=flut.py bin/flask run
 
 Now you can use the provided API. See web/index.html for instructions.
 
+To start a new drawing, simply delete or move the current "drawing" file, and create a new empty one (no need to stop the process, as the file is changed and read on every request).
 
 ## Webinterface
 
