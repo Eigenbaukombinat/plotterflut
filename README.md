@@ -44,4 +44,4 @@ Expose the web-Directory and access via a browser. Maybe you have to change URLs
 
 ## Examples
 
-See the provided draw_it.py or check out https://github.com/n-st/plotterflut-client for a simple shell script.
+See the provided draw_it.py to draw png files, or check out https://github.com/n-st/plotterflut-client for a simple shell script. With the golang script at https://gitlab.spline.inf.fu-berlin.de/jrt/goplot you can plot png files and qr codes.
