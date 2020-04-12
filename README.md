@@ -40,3 +40,8 @@ To start a new drawing, simply delete or move the current "drawing" file, and cr
 ## Webinterface
 
 Expose the web-Directory and access via a browser. Maybe you have to change URLs to your API in some of the files.
+
+
+## Examples
+
+See the provided draw_it.py or check out https://github.com/n-st/plotterflut-client for a simple shell script.
