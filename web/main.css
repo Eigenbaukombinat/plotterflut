@@ -1,0 +1,66 @@
+div.sq {
+    position: absolute;
+    width: 8;
+    height: 8;
+    border: 1px solid #ddd;
+}
+
+
+div.blocked {
+   background-color: white !important;
+   font-size: 5px;
+   }
+   div.blocked::after {
+   content: ".";
+}
+
+div.act {
+   border-color: red;
+}
+.spinner {
+  width: 8px;
+  height: 8px;
+  background-color: #333;
+
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+#msg {
+   position: absolute;
+   left: 840px;
+   top: 97px;
+   width: 100px;
+   font-size: 10px;
+   height: 460px;
+   overflow: hidden;
+}
+#msg p {
+    margin: 3px;
+    background-color: #eee;
+}
+
+#home {
+	position:absolute;
+	left:840px;
+	top: 77px;
+}
