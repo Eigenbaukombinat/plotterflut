@@ -2,6 +2,8 @@ from PIL import Image
 import requests
 import time
 
+# the provided png needs to be grayscale already.
+
 img = Image.open('yourfile.png')
 
 maxx, maxy = img.size
