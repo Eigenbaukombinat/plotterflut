@@ -9,7 +9,7 @@ gocept.cache==4.0
 itsdangerous==1.1.0
 Jinja2==2.11.1
 MarkupSafe==1.1.1
-numpy==1.18.2
+numpy==1.22.0
 pkg-resources==0.0.0
 pycparser==2.20
 pyhull==2015.2.1
